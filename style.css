@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Фон.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    color: rgb(255, 230, 0);
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 65px;
+    text-shadow: 5px 5px 5px rgb(252, 152, 21);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color:rgb(34, 34, 34);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: center;
+    font-size: 25px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    text-align: center;
+    color: yellow;
+    display: block;
+    padding: 14px 16px;
+    background-color: #222222;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: tomato;
+}
+
+.active {
+    background-color: tomato;
+}
+
+.search {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px -5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.search:focus {
+    background-color: yellowgreen;
+}
+
+.container p {
+    text-align: center;
+    font-size: 36px;
+    text-shadow: 5px 5px 5px rgb(252, 152, 21);
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    gap: 20px; 
+    max-width: 1200px;
+    margin: 120px auto; 
+}
+
+.images {
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.images img {
+    width: 100%;
+    height: 270px;
+    border-radius: 10px;
+}
+
+.TEXTforIMGF {
+    font-size: 22px;
+    padding: 5px;
+    text-align: center;
+}
